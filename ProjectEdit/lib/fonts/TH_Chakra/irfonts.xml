@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fontFamilies>
+   <fontFamily name="TH Chakra Petch">
+       <normal><![CDATA[TH Chakra Petch.ttf]]></normal>
+       <bold><![CDATA[TH Chakra Petch Bold.ttf]]></bold>
+       <italic><![CDATA[TH Chakra Petch Italic.ttf]]></italic>
+       <boldItalic><![CDATA[TH Chakra Petch Bold Italic.ttf]]></boldItalic>
+       <pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+       <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+   </fontFamily>
+
+</fontFamilies>
+
+

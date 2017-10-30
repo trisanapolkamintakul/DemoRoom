@@ -1,0 +1,349 @@
+body {
+	overflow-x: hidden;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#nevigate {
+	
+}
+
+#toolbar {
+	padding-top: 56px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#content {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	
+}
+
+.center{ margin-left: auto;margin-right: auto;}
+.columnHeader{ text-align: center; }
+
+.viewButton {
+	background: url("../images/edit.gif") no-repeat top left;
+	background-position: 0 0; 
+	width: 14px; 
+	height: 17px;;
+}
+
+.attachButton {
+	background: url("../images/icons/famfamfam/attach.png") no-repeat top left;
+	background-position: 0 0; 
+	width: 15px; 
+	height: 17px;;
+}
+
+.pdfButton {
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -576px ;
+	width: 16px; 
+	height: 17px;;
+}
+
+.defaultToolbarButton {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.defaultToolbarButton td {
+	background-image: none !important;
+}
+
+.toolbarButton {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.required {
+	color : red;
+}
+
+.readOnly {
+	background-color: #CCCCCC !important;
+	background-image: none !important;
+}
+
+.borderCombo {
+	border-width:1px;
+	border-style:solid;
+	border-color:#FFFFFF #FFFFFF #EEEEEE;
+	color:#555555; 
+	padding: 3px 10px;
+}
+
+#nav_buttons{
+	left:20px;
+	height:20px;
+	padding:0;
+	padding-left:5px;
+	padding-top:5px;
+	position:relative,width:50%
+}
+#nav_buttons li{
+	margin:5px 0 5px 0;
+	padding:0 2px 0 0;
+	list-style:none;
+	float:left;
+	top:0
+}#nav_buttons li,#nav_buttons a{
+	display:block;
+	white-space:nowrap;
+	text-indent: -9999px;
+}
+li>a{
+	outline:0
+}
+
+.nav_text_buttons {
+	text-indent: 0 !important;
+}
+
+.text-white {
+	color : white;
+}
+
+/*set up toolbar button*/
+#backBtn a{
+	text-indent:-9999px;
+	background:url(../images/icons/button_action.png)no-repeat top left;
+	background-position:0 -608px;
+	width:16px;height:16px;
+	outline:0
+}
+#addBtn a {
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -32px; 
+	width: 16px;height: 16px;outline: 0;	
+}
+#delBtn a {
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -320px; width: 16px; height: 16px;
+	outline: 0;
+}
+#refreshBtn a {
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -64px; width: 16px; height: 16px;
+	outline: 0;
+}
+#saveBtn a {
+	text-indent: -9999px;	
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -352px; width: 16px; height: 16px;
+	outline: 0; 	
+}
+#searchBtn a {
+	text-indent: -9999px;
+	outline: 0;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -544px; width: 16px; height: 16px; 	
+}
+#editBtn a {
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -672px; width: 16px; height: 16px;
+	outline: 0;
+}
+#printBtn a {
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -768px; width: 16px; height: 16px;
+	outline: 0;
+}
+#saveExitBtn a {
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -384px; width: 16px; height: 16px;
+	outline: 0;
+}
+#applyBtn a {
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 0; width: 16px; height: 16px; 
+	outline: 0;
+}
+#genBtn a{
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -96px; width: 16px; height: 16px; }
+}
+#gridEditBtn:link,#gridEditBtn:active,#gridEditBtn:hover{
+	display:block;
+	text-indent: -9999px;
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -672px; width: 16px; height: 16px;	
+	outline: 0;
+}
+
+#gritEditBtn:hover {
+	background: url(../images/icons/button_action.png) no-repeat top left;
+	background-position: 0 -672px; width: 16px; height: 16px;
+}
+#gritEditBtn span {
+	display:none;
+}
+
+.logoutBtn{
+	background: url(../images/icons/button_action.png) no-repeat top left !important;
+	background-position: 0 -512px !important; width: 16px; height: 16px;	
+}
+
+/* Class for Ext Button component; CSS styles for iconCls config property in Ext component */
+.lock {
+    background: url("../scripts/ext/resources/images/default/grid/hmenu-lock.png") no-repeat top left !important;
+	background-position: 0 0; 
+	width: 13px; 
+	height: 15px;;	
+}
+
+.home {
+	background-image:url(../images/icons/go_home.png) !important;	
+	background-position: 0 0px !important;
+}
+
+.back {
+    background-image:url(../images/icons/button_action.png) !important;	
+	background-position: 0 -608px !important;
+}
+.add {
+    background-image:url(../images/icons/button_action.png) !important;	
+	background-position: 0 -32px !important;
+}
+.attach {
+    background-image:url(../images/icons/famfamfam/attach.png) !important;
+}
+.remove {
+    background-image: url(../images/icons/button_action.png) !important;
+    background-position: 0 -320px !important;
+}
+.save {
+    background: url(../images/icons/button_action.png) !important;
+    background-position: 0 -352px !important;    
+}
+.refresh {
+    background: url(../images/icons/button_action.png) !important;
+    background-position: 0 -64px !important;    
+}
+.excel {
+    background: url(../images/icons/button_action.png) !important;
+    background-position: 0 -704px !important;    
+}
+.pdf {
+    background: url(../images/icons/button_action.png) !important;
+    background-position: 0 -576px !important;    
+}
+
+.query {
+    background: url(../images/icons/button_action.png) !important;
+    background-position: 0 -544px !important;  
+}
+.edit {
+    background: url(../images/icons/button_action.png) !important;
+    background-position: 0 -928px !important;  
+}
+.option {
+    background-image:url(../images/icons/famfamfam/plugin.gif) !important;
+}
+.icon-grid {
+    background-image:url(../images/icons/famfamfam/grid.png) !important;
+}
+.cog {
+    background-image:url(../images/icons/button_action.png) !important;	
+	background-position: 0 -96px !important;
+}
+
+.user_green {
+	background-image:url(../images/icons/famfamfam/user_green.png) !important;
+	background-repeat: no-repeat !important;
+	height: 16px;
+	width: 16px;	
+}
+
+.user_female {
+	background-image:url(../images/icons/famfamfam/user_female.png) !important;
+	background-repeat: no-repeat !important;	
+	height: 16px;
+	width: 16px;
+}
+
+.icon-expand-all-group {
+	background-image: url(../images/icons/group-expand-sprite.gif) !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-position: 3px 3px !important;
+}
+
+.icon-collapse-all-group {
+	background-image: url(../images/icons/group-expand-sprite.gif) !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-position: 3px -47px !important;
+}
+
+.printerBtn {
+    background: url(../images/icons/button_action.png) !important;
+    background-position: 0 -768px !important;    
+}
+
+/* new CSS class button and toolbar; general jsp page */
+.acceptBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 0; width: 16px; height: 16px; } 
+.addBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -32px; width: 16px; height: 16px; } 
+.arrow_refreshBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -64px; width: 16px; height: 16px; } 
+.cogBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -96px; width: 16px; height: 16px; } 
+.crossBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -128px; width: 16px; height: 16px; } 
+.dateBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -160px; width: 16px; height: 16px; } 
+.date_addBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -192px; width: 16px; height: 16px; } 
+.date_deleteBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -224px; width: 16px; height: 16px; } 
+.date_editBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -256px; width: 16px; height: 16px; } 
+.declineBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -288px; width: 16px; height: 16px; } 
+.deleteBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -320px; width: 16px; height: 16px; } 
+.diskBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -352px; width: 16px; height: 16px; } 
+.disk_backBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -384px; width: 16px; height: 16px; } 
+.disk_blackBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -416px; width: 16px; height: 16px; } 
+.disk_black_backBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -448px; width: 16px; height: 16px; } 
+.door_inBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -480px; width: 16px; height: 16px; } 
+.door_outBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -512px; width: 16px; height: 16px; } 
+.magnifierBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -544px; width: 16px; height: 16px; } 
+.page_white_acrobatBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -576px; width: 16px; height: 16px; } 
+.page_white_backBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -608px; width: 16px; height: 16px; } 
+.page_white_copyBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -640px; width: 16px; height: 16px; } 
+.page_white_editBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -672px; width: 16px; height: 16px; } 
+.page_white_excelBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -704px; width: 16px; height: 16px; } 
+.page_white_goBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -736px; width: 16px; height: 16px; } 
+.printerBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -768px; width: 16px; height: 16px; } 
+.tickBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -800px; width: 16px; height: 16px; } 
+.userBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -832px; width: 16px; height: 16px; } 
+.user_addBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -864px; width: 16px; height: 16px; } 
+.user_deleteBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -896px; width: 16px; height: 16px; } 
+.user_editBtn{ background: url(../images/icons/button_action.png) no-repeat top left;background-position: 0 -928px; width: 16px; height: 16px; }  
+
+.x-combo-list .combo-list-item {
+    font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-combo-list-hd .combo-list-hd {
+    padding:3px;
+}
+
+.x-combo-list-hd .combo-list-hd {
+    font:bold 11px tahoma, arial, helvetica, sans-serif;
+    color:#15428b;
+}
+
+.x-combo-list-item .combo-list-item {
+    padding:0px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}

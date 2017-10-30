@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+        <!-- Templates -->
+        <definition name="ss.layout" template="/WEB-INF/jsp/template/baseLayout.jsp">
+            <put-attribute name="title" value="Reservation" />
+            <put-attribute name="defaultLocalization" value="/WEB-INF/jsp/common/CommonMessage-localization.jsp"></put-attribute>
+            <put-list-attribute name="ssStyleSheets">
+		        <add-attribute value="/webjars/extjs/3.4.0/resources/css/ext-all.css" />
+		        <add-attribute value="/ux/css/ux-all.css" />
+		        <add-attribute value="/calendar/resources/css/calendar.css" />
+		        <add-attribute value="/css/softsquare.css" />
+		      	<add-attribute value="/css/exim-attachment.css" />
+		      	<add-attribute value="/css/ext/SSLovField.css" />
+		      	<add-attribute value="/css/ext/CheckboxSelectionModel.css" />
+		      	<add-attribute value="/css/ext/CheckColumn.css" />
+		      	<add-attribute value="/css/ext/LockGroupColumn.css" />
+		        <add-attribute value="/Bootstrap-calendar/public_html/fullcalendar.css" />
+		        <add-attribute value="/css/base/calendar.css" />
+		    </put-list-attribute>
+		    <put-list-attribute name="ssStyleSheetsCalendar">
+		        <add-attribute value="/Bootstrap-calendar/public_html/fullcalendar.print.css" />
+		    </put-list-attribute>
+            <put-list-attribute name="ssJavaScripts">
+             	<add-attribute value="/js/CommonMessage.js" />
+		        <add-attribute value="/webjars/extjs/3.4.0/adapter/ext/ext-base.js" />
+		        <add-attribute value="/webjars/extjs/3.4.0/ext-all-debug.js" />
+		        <add-attribute value="/webjars/jquery/2.1.1/jquery.min.js" />
+		        <add-attribute value="/webjars/jquery-ui/1.11.4/jquery-ui.min.js" />
+		        <add-attribute value="/ux/ux-all.js" />
+		        <add-attribute value="/calendar/calendar-all.js" />
+		        <add-attribute value="/calendar/calendar-all-debug.js" />
+		       	<add-attribute value="/js/ss/FitToParent.js" />
+		      	<add-attribute value="/js/ss/UrlHelper.js" />
+		      	<add-attribute value="/js/ss/FormHelper.js" />
+		      	<add-attribute value="/js/ss/PermissionHelper.js" />
+		      	<add-attribute value="/js/ss/SSLovField.js" />
+		      	<add-attribute value="/js/ss/NumberField.js" />
+		      	<add-attribute value="/js/ss/ColorField.js" />
+		      	<add-attribute value="/js/ss/TextArea.js" />
+		      	<add-attribute value="/js/ss/CheckColumn.js" />
+		        <add-attribute value="/js/ss/CheckboxSelectionModel.js" />
+		      	<add-attribute value="/js/ss/EditorGridPanel.js" />
+		      	<add-attribute value="/js/ss/TreePanel.js" />
+		      	<add-attribute value="/js/ss/ComboBox.js" />
+		      	<add-attribute value="/js/ss/DateField.js" />
+		      	<add-attribute value="/js/ss/TextDateField.js" />
+		      	<add-attribute value="/js/softsquare.js" />
+		      	<add-attribute value="/js/navigatebar.js" />
+		      	<add-attribute value="/js/exim-lang.js" />
+		      	<add-attribute value="/js/exim-datefield.js" />
+		      	<add-attribute value="/js/exim-renderer.js" />
+		      	<add-attribute value="/js/exim-combobox.js" />
+		      	<add-attribute value="/js/exim-gridpanel.js" />
+				<add-attribute value="/js/exim-treepanel.js" />
+				<add-attribute value="/js/exim-attachment.js" />
+				<add-attribute value="/js/base-combobox.js" />
+				<add-attribute value="/js/reportgen.js" />
+				<add-attribute value="/js/util/BeanUtils.js" />
+				<add-attribute value="/js/util/DateUtils.js" />
+				<add-attribute value="/js/script/grid/GridConvert.js" />
+				<add-attribute value="/Bootstrap-calendar/public_html/moment.min.js" />
+				<add-attribute value="/Bootstrap-calendar/public_html/fullcalendar.min.js" /> 
+				<add-attribute value="/js/script/calendar/calendar.js" />
+		    </put-list-attribute>
+        </definition>
+   
+</tiles-definitions>

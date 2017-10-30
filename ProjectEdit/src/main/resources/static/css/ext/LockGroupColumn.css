@@ -1,0 +1,14 @@
+.x-grid3-locked .x-grid-group-title
+{
+    white-space:nowrap;
+}        
+
+.x-grid-group-unlocked .x-grid-group-title
+{
+    visibility:hidden;
+}
+
+.x-grid-group-unlocked .x-grid-group-nolockedcolumns .x-grid-group-title
+{
+    visibility:visible;
+}

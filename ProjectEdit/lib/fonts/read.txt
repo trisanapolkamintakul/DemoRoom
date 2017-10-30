@@ -1,0 +1,2 @@
+1.Open directory jre/jdk and copy MyFont to this path.
+2.Copy MyFont to WEB-INF/classes

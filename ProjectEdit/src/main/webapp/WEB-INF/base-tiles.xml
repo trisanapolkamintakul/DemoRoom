@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+        <!-- Pages -->  
+        <definition name="home" extends="ss.layout">
+            <put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />
+            <put-attribute name="localization" value="" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/home.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/home.js" />
+            <put-attribute name="pageToolBar" value=""/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+
+        <definition name="error" extends="ss.layout">
+            <put-attribute name="body" value="/WEB-INF/jsp/error.jsp" />
+            <put-attribute name="localization" value="" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/empty.js" />
+            <put-attribute name="pageJsIncluded" value="/js/render/empty.js" />
+            <put-attribute name="pageToolBar" value=""/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBarLogin.jsp"/>
+        </definition>
+        
+        <definition name="login" extends="ss.layout">
+            <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+            <put-attribute name="localization" value="" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/empty.js" />
+            <put-attribute name="pageJsIncluded" value="/js/render/empty.js" />
+            <put-attribute name="pageToolBar" value=""/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBarLogin.jsp"/>
+        </definition>
+        
+        <definition name="pageTest" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/pageTest-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/pageTest.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/pageTest.js" />
+            <put-attribute name="pageToolBar" value="Save|Search"/>
+            <put-attribute name="menuBar" value=""/>
+        </definition>
+        
+        <definition name="pageTest" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/pageTest-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/pageTest.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/pageTest.js" />
+            <put-attribute name="pageToolBar" value="Save|Search"/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+        
+        <definition name="register" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/register-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/register.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/register.js" />
+            <put-attribute name="pageToolBar" value="Save"/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+        
+        <definition name="hyPeriod" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/hyPeriod-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/hyPeriod.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/hyPeriod.js" />
+            <put-attribute name="pageToolBar" value="Search"/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+        
+        <definition name="hyOrderHeader" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/hyOrderHeader-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/hyOrderHeader.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/hyOrderHeader.js" />
+            <put-attribute name="pageToolBar" value="Search|Create Order"/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+        
+        <definition name="hyOrderDetail" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/hyOrderDetail-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/hyOrderDetail.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/hyOrderDetail.js" />
+            <put-attribute name="pageToolBar" value="Back|Save|Create Order"/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+        
+        <definition name="calendarExam" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/hyOrderDetail-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/empty.js" />
+            <put-attribute name="pageJsIncluded" value="/js/render/empty.js" />
+            <put-attribute name="pageToolBar" value=""/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+            <put-attribute name="specialPage" value="/WEB-INF/jsp/calendar/calendar.jsp"/>
+        </definition>
+        
+         <definition name="roomdetail" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/register-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/roomdetail.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/roomDetail.js" />
+            <put-attribute name="pageToolBar" value=""/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+        
+        
+        
+         <definition name="reservation" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/register-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/reservation.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/reservation.js" />
+            <put-attribute name="pageToolBar" value="Save"/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+        
+        
+        
+        <definition name="showroomtype" extends="ss.layout">
+         	<put-attribute name="localization" value="/WEB-INF/jsp/localization/register-localization.jsp" />
+            <put-attribute name="pageJsRenderIncluded" value="/js/render/showroomtype.js" />
+            <put-attribute name="pageJsIncluded" value="/js/script/showroomtype.js" />
+            <put-attribute name="pageToolBar" value=""/>
+            <put-attribute name="menuBar" value="/WEB-INF/jsp/menuBar.jsp"/>
+        </definition>
+        
+        
+</tiles-definitions>
